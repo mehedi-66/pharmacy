@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HomePage{
+    display: flex;
+    background: #864A9B;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    justify-content: space-evenly;
+}
+.HomePage p{
+    font-size: 32px;
+    font-weight: bold;
+    color: #dbdbdb;
+    letter-spacing: 1px;
+    /* margin: 73px 0px; */
+    text-align: center;
+    margin: 0px;
+
+}
+.HomePageBtn{
+    width: 200px;
+    margin: 0 auto;
+    margin: 9px;
+}
+.HomePageBtn button{
+    width: 80px;
+    padding: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+    border: none;
+    background: rgb(217 94 196);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.HomePageBtn button:hover{
+    
+    background: #1677ef;
+    color: white;
+
+}
+
+.headerLeft{
+    width: 10%;
+    display: inline-block;
+   
+}
+.headerRight{
+    width: 10%;
+    display: inline-block;
+   
+}
+.headerMiddle{
+    width: 50%;
+    display: inline-block;
+}
+.logo{
+    border: 1px solid #d3001d;
+    z-index: 1;
+    left: 50%;
+    top: 53px;
+    width: 64px;
+    position: fixed;
+    background: #e1e1e1;
+    border-radius: 8px;
+
+}
+
+#carouselExampleIndicators{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}

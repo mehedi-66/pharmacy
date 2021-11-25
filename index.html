@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pharmacy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div class="HomePage">
+
+    <div class="headerLeft HomePageBtn">
+      <a href="client/shop/buy.html"><button>Shop</button></a>
+    </div>
+    <div class="headerMiddle">
+      <p>Welcome to Rainbow Pharmacy</p>
+    </div>
+    <div class="headerRight HomePageBtn">
+      <a href="client/admin/addMedecine.html"><button>Admin</button></a>
+    </div>
+  </div>
+  <div class="logo">
+    <img src="img/logo3.png" alt="">
+  </div>
+  <div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/ph1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ph2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/ph3.jpg" class="d-block w-100" alt="...">
+        </div>
+       
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- <div>
+        <p id="home">Pharmacy Shop</p>
+
+        <p class="formValidation"></p>
+        <form >
+            <span>Email</span>
+            <input type="email" id="email" value="">
+            <span>Password</span>
+            <input type="password" id="password" value="">
+            <button class="buttonclick" type="submit" >Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+
+    <script>
+
+        document.querySelector(".buttonclick").addEventListener("click",
+            function (e) {
+
+                let Email = document.getElementById("email").value;
+                let passward = document.getElementById("password").value;
+                if (Email === 'mehedi@gmail.com' && passward === 'root') {
+                    location.replace('/client/home.html');
+                }
+                else{
+                    document.querySelector('.formValidation').innerHTML = "Email or passward is worng";
+                }
+
+                e.preventDefault();
+            })
+    </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

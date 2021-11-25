@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+ 
+    <div class="shopHeader">
+        <img src="../../img/logo3.png" alt="">
+        <p>Rainbow Pharmacy shop</p>
+        <a href="/client/admin/addMedecine.html">Go Admin</a>
+    </div>
+
+  
+
+    <div class="adminContainer">
+        <div class="adminLeftSide">
+            <h2 class="adminLeftSideHeading">Medicine</h2>
+            <ul>
+                <li><a href="/client/shop/buy.html" >Buy</a></li>
+                <li><a href="/client/shop/todaySales.html" >Today's Sales</a></li>
+                <li><a href="/client/shop/totalSales.html">Total Sales</a></li>
+            </ul>
+        </div>
+        <div class="adminRightSide">
+            <!-- ********** Availbe medicine Here ************ -->
+            <div class="availabeShopLeftSide">
+                <div class="addMedecineContainer containerHeader">
+                    <p>Available</p> 
+                </div>
+                
+                <!-- Table for Available Medicine -->
+                <div class="container">
+                    <table id="table">
+                        <thead>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>price (1p)</th>
+                            <th>Available (p)</th>
+                            <th>Expire Date</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+    
+                </div>
+
+            </div>
+
+            <div class="buyShopRight">
+                <div class="addMedecineContainer containerHeader">
+                    <p>Buy Medicine</p> 
+                    <p class="successAddDB"></p>
+                </div>
+                <!-- Buy medicine Form Here  -->
+                <div class="buyMedecineForm">
+                    <form class="FormReset">
+                        <span>Customer Name</span>
+                        <input type="text" class="customerName" value="" placeholder="karim">
+                        <span>Medicine ID</span>
+                        <input type="number" min="1" class="medicineID" value="1">
+                        <span>Quantity</span>
+                        <input type="number" min="1" class="medicineQuantity" value="1">
+                        <span class="totalAmout">Total Amount = 0 Tk</span> 
+                        <div class="button">
+                            <button type="submit" class="buyMedicineButton" >Submit</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                        <div class="button2">
+                            <button class="reloadPage" ></button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- <div class="adminContainer">
+        <idv class="adminLeftSide">
+
+        </idv>
+        <div class="adminRightSide">
+            
+        </div>
+    </div> -->
+   <script src="buy.js"></script>
+</body>
+</html>

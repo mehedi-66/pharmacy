@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add medicine</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="addMedecine.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="adminHeader">
+        <img src="../../img/logo3.png" alt="">
+        <p>Medicine Information of Shop</p>
+        <a href="/client/shop/buy.html">Shop</a>
+    </div>
+
+    <div class="adminContainer">
+        <div class="adminLeftSide">
+            <h2 class="adminLeftSideHeading">Medicine</h2>
+            <ul>
+                <li><a href="addMedecine.html" >Add</a></li>
+                <li><a href="availableMedicine.html">Available</a></li>
+                <li><a href="expireMedicine.html">Expire</a></li>
+                <li><a href="outOfStockMedicine.html">out of stock</a></li>
+            </ul>
+        </div>
+
+        <div class="adminRightSide">
+            <div class="addMedecineContainer containerHeader">
+                <p>Add medicine</p> 
+                <p class="successAddDB"></p>
+            </div>
+            <div class="addMedecineForm">
+                <form class="FormReset">
+                    <span>Name</span>
+                    <input type="text" class="addMedicineName" value="">
+                    <span>1 piece prize</span>
+                    <input type="number" min="0"  class="addMedicinePrize" value="">
+                    <span>How many pieces</span>
+                    <input type="number" min="0" class="addMedicineAvailable" value="">
+                    <span>Buy Date</span>
+                    <input type="date" class="addMedicineBuyDate" value="">
+                    <span>Expire Date</span>
+                    <input type="date" class="addMedicineExpireDate" value="">
+                    <div class="button">
+                        <button type="submit" class="addMedicineButton" >Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                    <div class="button2">
+                        <button class="reloadPage" ></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+   
+
+    <script src="addMedicine.js"></script>
+</body>
+</html>

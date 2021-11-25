@@ -1,0 +1,47 @@
+
+.addMedecineForm{
+    width: 500px;
+    border: 1px solid #e8e8e8;
+    margin: 0 auto;
+    background: #fffafa;
+}
+
+.addMedecineForm form{
+    padding: 10px;
+}
+.addMedecineForm form span{
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.addMedecineForm form input{
+    width: 55%;
+    height: 30px;
+    outline: none;
+}
+.addMedecineForm form button{
+    display: inline-block;
+    margin: 10px auto;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background: #7e57c2;
+    border: none;
+    border-radius: 3px;
+}
+.addMedecineForm form button:hover{ 
+    background: #0bab00;
+    color: black;
+    border: 1px solid #881010;
+}
+.button{
+    margin: 0 auto;
+    width: 250px;
+}
+.successAddDB{
+    color: #0bab00;
+}

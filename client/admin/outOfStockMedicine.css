@@ -1,0 +1,10 @@
+.addMedecineContainer{
+    margin: 20px;
+}
+.addMedecineContainer p{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

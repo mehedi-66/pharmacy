@@ -1,0 +1,12 @@
+.todaySalesAmountShow{
+    clear: both;
+    text-align: center;
+    background: #9b76c1;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+
+}

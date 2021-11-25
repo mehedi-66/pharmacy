@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shopHeader{
+    background: #98394d;
+    height: 61px;
+    display: flex;
+    justify-content: space-around;
+}
+.shopHeader p{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    padding: 13px;
+}
+.shopHeader img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 93px;
+    top: 6px;
+    background: white;
+    border-radius: 6px;
+}
+.shopHeader a{
+    display: inline-block;
+    width: 102px;
+    color: white;
+    background: #3963ee;
+    height: 34px;
+    position: fixed;
+    right: 95px;
+    top: 11px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;   
+}
+.shopHeader a:hover{
+    background: #c530b3;
+    color: white;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+#table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#table, th, td{
+    border: 1px solid #b7b7b7;
+    
+}
+#table th{
+        height: 40px;
+ 
+}
+#table th, td{
+    text-align: center;
+    padding: 3px;
+    width: 17%;
+
+}
+#table td{
+    text-align:center;
+    padding: 6px 3px 7px 3px;
+}
+.no-class{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+}
+
+.adminContainer{
+    width: 100%;
+}
+.adminLeftSide{
+    background: #98394d;
+    height: 100vh;
+    width: 17%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.adminContainer .adminLeftSideHeading{
+
+    text-align: center;
+    background: #3963ee;
+    color: whitesmoke;
+    padding: 9px;
+    font-size: 22px;
+}
+.adminContainer ul{
+    padding: 0px;
+}
+.adminLeftSide ul li{
+   
+    border-bottom: 1px solid #afafaf;
+    list-style: none;
+
+}
+.adminLeftSide ul li a{
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 0px 5px 21px;
+}
+.adminLeftSide ul li a:hover{
+    color: #efefef;
+    background: rgb(34 46 112);
+    border-radius: 15px;
+
+}
+.adminRightSide{
+    float: left;
+    width: 82.7%;;
+    /* border: 1px solid red; */
+}
+
+.addMedecineContainer{
+    margin: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 7px;
+}
+.addMedecineContainer p{
+    
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0b00ad;
+    margin: 9px 4px 0px 0px;
+}
+
+.todaySalesAmountShow{
+    clear: both;
+    text-align: center;
+    background: #9b76c1;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+
+}
